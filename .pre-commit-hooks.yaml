@@ -10,7 +10,7 @@
 - id: cargo-sqlx
   name: cargo sqlx
   description: Use sqlx CLI
-  entry: cargo sqlx
+  entry: cargo sqlx prepare
   args: [""]
   files: \.rs$
   pass_filenames: false
