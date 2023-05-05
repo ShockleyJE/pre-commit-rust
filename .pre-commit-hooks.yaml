@@ -25,6 +25,6 @@
   description: Run tests with cargo
   entry: cargo test
   language: system
-  args: []
-  types: [rust]
-  pass_filenames: false
+  args: [""]
+  always_run: true
+  verbose: true
