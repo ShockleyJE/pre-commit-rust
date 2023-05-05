@@ -11,7 +11,7 @@
   name: sqlx check workspace
   description: Check a merged sqlx offline data file for a workspace
   entry: cargo sqlx check
-  args: ["--merged"]
+  args: ["--check"]
   always_run: true
   pass_filenames: false
   language: system
