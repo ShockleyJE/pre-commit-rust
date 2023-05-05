@@ -2,7 +2,8 @@
   name: test
   description: Run tests with cargo
   entry: cargo test
-  language: system
   args: [""]
   always_run: true
+  pass_filenames: false
+  language: system
   verbose: true
