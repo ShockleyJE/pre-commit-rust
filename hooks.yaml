@@ -20,7 +20,7 @@
     files: \.rs$
     pass_filenames: false
 -   id: cargo-test
-    name: test
+    name: cargo test
     description: Run tests with cargo
     entry: cargo test
     language: system
