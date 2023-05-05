@@ -6,4 +6,13 @@
   always_run: true
   pass_filenames: false
   language: system
-  verbose: true
+  verbose: false
+- id: sqlx-prepare-workspace
+  name: sqlx prepare workspace
+  description: Prepare a merged sqlx offline data file for a workspace
+  entry: cargo sqlx prepare
+  args: ["--merged"]
+  always_run: true
+  pass_filenames: false
+  language: system
+  verbose: false
