@@ -3,16 +3,16 @@
   description: Run tests with cargo
   entry: cargo test
   args: [""]
-  always_run: true
   pass_filenames: false
+  files: \.rs$
   language: system
   verbose: false
-- id: sqlx-check-workspace
-  name: sqlx check workspace
-  description: Check a merged sqlx offline data file for a workspace
-  entry: cargo sqlx check
-  args: ["--check"]
-  always_run: true
+- id: cargo-sqlx
+  name: cargo sqlx
+  description: Use sqlx CLI
+  entry: cargo sqlx
+  args: [""]
+  files: \.rs$
   pass_filenames: false
   language: system
   verbose: false
