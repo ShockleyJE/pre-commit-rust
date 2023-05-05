@@ -19,3 +19,11 @@
     language: system
     files: \.rs$
     pass_filenames: false
+- id: cargo-test
+    name: test
+    description: Run tests with cargo
+    entry: cargo test
+    language: system
+    args: []
+    types: [rust]
+    pass_filenames: false
